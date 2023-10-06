@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+         rel="stylesheet"
+      />
+      <title>Document</title>
+      <style>
+         body{
+            margin: 0;
+         }
+          .container {
+             font-family: 'Poppins', sans-serif;
+              width: 30rem;
+              height: 100vh;
+              background-color: #0d4a3e;
+              margin: auto;
+              display: flex;
+              @media screen and (max-width: 480px) {
+                 width: 100%;
+              }
+           }
+
+           .wrapper {
+              width: 80%;
+              margin: auto;
+           }
+
+           .hero-section {
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+           }
+
+           .hero-section > h3 {
+              width: 80%;
+              text-align: center;
+              font-family: poppins;
+              color: white;
+              font-weight: 600;
+              margin: 0;
+              font-size: 1.3rem;
+              line-height: 150%;
+           }
+
+           .hero-section p {
+              font-family: poppins;
+              color: #f9fafb;
+              font-weight: 400;
+              font-size: 0.9rem;
+              text-align: center;
+           }
+
+           .btn {
+              width: 200px;
+              background-color: #ffa824;
+              color: white;
+              border: none;
+              font-family: poppins;
+              font-size: 0.9rem;
+              padding: 0.7rem;
+              font-weight: 500;
+              text-decoration: none;
+              text-align: center;
+              margin: 1rem 0;
+              display: block;
+           }
+
+           .btn:hover {
+              background-color: #d8932c;
+           }
+
+           .logo-bottom {
+              display: flex;
+              filter: opacity(50%);
+              justify-content: center;
+              align-items: center;
+           }
+
+           .logo-bottom h4 {
+              margin-left: 10px;
+              font-family: poppins;
+              font-weight: 600;
+              line-height: 150%;
+              color: #fff;
+           }
+      </style>
+   </head>
+   <body>
+      <main>
+         <div class="container">
+            <div class="wrapper">
+               <div class="hero-section">
+                  <!-- <img src="" alt="" /> -->
+                  <h3>Permintaan Ubah Kata Sandi</h3>
+                  <p>
+                     Kami telah menerima permintaan perubahan kata sandi untuk
+                     akun Anda.
+                  </p>
+                  <p>
+                     Tautan ini akan kedaluwarsa dalam 24 jam. Apabila Anda
+                     tidak meminta perubahan kata sandi, abaikan email ini dan
+                     tidak ada perubahan yang akan dilakukan pada akun Anda.
+                  </p>
+                  <a class="btn" href="/#"> Ubah Kata Sandi </a>
+                  <p>
+                     Apabila permintaan ubah kata sandi tidak Anda terima,
+                     segera ubah kata sandi akun Anda untuk mencegah akses tidak
+                     sah.
+                  </p>
+                  <div class="logo-bottom">
+                     <!-- <img src="" alt="logo" /> -->
+                     <h4>CV Zaman Now</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+   </body>
+</html>
