@@ -17,14 +17,11 @@
          }
           .container {
              font-family: 'Poppins', sans-serif;
-              width: 30rem;
+              width: 25rem;
               height: 100vh;
               background-color: #0d4a3e;
               margin: auto;
               display: flex;
-              @media screen and (max-width: 480px) {
-                 width: 100%;
-              }
            }
 
            .wrapper {
@@ -33,9 +30,9 @@
            }
 
            .hero-section {
-              align-items: center;
               display: flex;
               justify-content: center;
+              align-items: center;
               flex-direction: column;
            }
 
@@ -91,6 +88,11 @@
               line-height: 150%;
               color: #fff;
            }
+           @media(width <= 480px) {
+                .container {
+                    width: 100%;
+                }
+            }
       </style>
    </head>
    <body>
