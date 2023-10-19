@@ -11,6 +11,7 @@
         * {
             margin: 0;
             padding: 0;
+            font-family: sans-serif;
         }
 
         body {
@@ -49,7 +50,7 @@
         .webkit {
             max-width: 600px;
             min-height: calc(100vh - 120px);
-            background: url('https://i.ibb.co/tzzY2Z5/ornament-colorized-bg.png') no-repeat bottom right , #FFFFFF;
+            background: url() no-repeat bottom right , #FFFFFF;
             background-size: 312px;
             border-radius: 12px;
         }
@@ -83,7 +84,14 @@
         }
 
         .nav-logo img {
-            height: 45px;
+            height: 30px;
+        }
+
+        .nav-logo span {
+          position: relative;
+          bottom: 10px;
+          color: #3D6E65;
+          font-weight: 700;
         }
 
         @media screen and (max-width: 600px) {
@@ -95,10 +103,17 @@
         
 
         /* header */
+        .img-container{
+          height: 100px;
+          margin: 0 0 0 150px;
+          width: 90px;
+          border-radius: 100%;
+          background-color: #aefae2;
+        }
 
-        .header-body img {
-            height: 188px;
-            margin-bottom: 49px;
+        .check{
+          height: 60px;
+          margin: 19px 0 0 0;
         }
 
         .header-body h2 {
@@ -157,7 +172,8 @@
               <table>
                 <tr>
                   <td class="nav-logo">
-                    <img src="https://i.ibb.co/74jzmWm/logo-long.png" alt="">
+                    <img src="https://i.ibb.co/jL8SShB/Group-1-2.png" alt="Group-1-2" border="0">
+                    <span>Cv Zaman Now</span>
                   </td>
                 </tr>
               </table>
@@ -171,7 +187,9 @@
               <table width="100%" style="border-spacing: 0">
                 <tr class="header-body">
                   <td style="text-align: center;">
-                    <img src="https://i.ibb.co/TL44RCD/email-icon.png" alt="">
+                   <div class="img-container">
+                     <img class="check" src="https://i.ibb.co/T032XN6/Message.png" alt="Message" border="0">
+                   </div>
                     <h2>Welcome to CV Zaman Now</h2>
                     <p>We created an account for you. <br />Please confirm your email address</p>
                     <div>
